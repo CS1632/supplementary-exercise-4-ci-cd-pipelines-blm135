@@ -41,14 +41,14 @@ public class RentACatTest {
 		Mockito.when(c1.getName()).thenReturn("Jennyanydots");
 		Mockito.when(c1.getId()).thenReturn(1);
 		Mockito.when(c1.getRented()).thenReturn(false);
-		Mockito.when(c1.toString()).thenReturn("ID 1. Jennyanydots\n");
+		Mockito.when(c1.toString()).thenReturn("ID 1. Jennyanydots");
 
 		// // 3. Create an unrented Cat with ID 2 and name "Old Deuteronomy", assign to c2
 		c2 = Mockito.mock(Cat.class);
 		Mockito.when(c2.getName()).thenReturn("Old Deuteronomy");
 		Mockito.when(c2.getId()).thenReturn(2);
 		Mockito.when(c2.getRented()).thenReturn(false);
-		Mockito.when(c2.toString()).thenReturn("ID 2. Old Deuteronomy\n");
+		Mockito.when(c2.toString()).thenReturn("ID 2. Old Deuteronomy");
 
 		// // 4. Create an unrented Cat with ID 3 and name "Mistoffelees", assign to c3
 		c3 = Mockito.mock(Cat.class);
