@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-junit</artifactId>
+  <artifactId>cs1632-cicd-junit-blm135</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -103,7 +103,7 @@
                     <limit>
                       <counter>INSTRUCTION</counter>
                       <value>COVEREDRATIO</value>
-                      <minimum>2%</minimum>
+                      <minimum>20%</minimum>
                     </limit>
                   </limits>
                   <includes>
